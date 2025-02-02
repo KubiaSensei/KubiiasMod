@@ -28,20 +28,20 @@ public class ModItemGroups {
                         // Ilay
                         entries.add(ModItems.KINDER);
                         entries.add(ModItems.ILAY_MUSIC_DISC);
-                        entries.add(PotionContentsComponent.createStack(Items.POTION, ModPotions.ILAY_POTION));
-                        entries.add(PotionContentsComponent.createStack(Items.SPLASH_POTION, ModPotions.ILAY_POTION));
-                        entries.add(PotionContentsComponent.createStack(Items.LINGERING_POTION, ModPotions.ILAY_POTION));
-                        // Dadon
-                        entries.add(PotionContentsComponent.createStack(Items.POTION, ModPotions.DADON_POTION));
-                        entries.add(PotionContentsComponent.createStack(Items.SPLASH_POTION, ModPotions.DADON_POTION));
-                        entries.add(PotionContentsComponent.createStack(Items.LINGERING_POTION, ModPotions.DADON_POTION));
                         // Shilo
                         entries.add(ModItems.SEFER_TORA);
                         // Uri
                         entries.add(ModItems.GEFILTE_FISH);
+                        // Potions
                         entries.add(PotionContentsComponent.createStack(Items.POTION, ModPotions.URI_POTION));
                         entries.add(PotionContentsComponent.createStack(Items.SPLASH_POTION, ModPotions.URI_POTION));
                         entries.add(PotionContentsComponent.createStack(Items.LINGERING_POTION, ModPotions.URI_POTION));
+                        entries.add(PotionContentsComponent.createStack(Items.POTION, ModPotions.DADON_POTION));
+                        entries.add(PotionContentsComponent.createStack(Items.SPLASH_POTION, ModPotions.DADON_POTION));
+                        entries.add(PotionContentsComponent.createStack(Items.LINGERING_POTION, ModPotions.DADON_POTION));
+                        entries.add(PotionContentsComponent.createStack(Items.POTION, ModPotions.ILAY_POTION));
+                        entries.add(PotionContentsComponent.createStack(Items.SPLASH_POTION, ModPotions.ILAY_POTION));
+                        entries.add(PotionContentsComponent.createStack(Items.LINGERING_POTION, ModPotions.ILAY_POTION));
                     }).build());
 
     public static final ItemGroup KOREN_TAB_GROUP = Registry.register(Registries.ITEM_GROUP,

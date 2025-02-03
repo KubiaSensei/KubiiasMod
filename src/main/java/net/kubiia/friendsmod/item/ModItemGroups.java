@@ -19,7 +19,7 @@ public class ModItemGroups {
     public static final ItemGroup MAIN_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(FriendsMod.MOD_ID, "main"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.maintab"))
-                    .icon(() -> new ItemStack(ModItems.FALAFEL_BALL)).entries((displayContext, entries) -> {
+                    .icon(() -> new ItemStack(Items.FIREWORK_ROCKET)).entries((displayContext, entries) -> {
                         // Koren
                         entries.add(ModItems.FALAFEL_BALL);
                         entries.add(ModItems.METAL_FALAFEL_BALL);

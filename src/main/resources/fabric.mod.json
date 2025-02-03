@@ -6,10 +6,10 @@
 	"description": "Mod description",
 	"authors": ["Kubiia"],
 	"mixins": [
-		"friends-mod.mixins.json"
 	],
 	"entrypoints": {
-		"main": ["net.kubiia.friendsmod.FriendsMod"]
+		"main": ["net.kubiia.friendsmod.FriendsMod"],
+		"fabric-datagen": ["net.kubiia.friendsmod.FriendsModDataGenerator"]
 	},
 	"depends": {
 		"fabricloader": ">=0.16.5",
